@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="BLOO MORA — hand-painted ceramic vases made with love in Sri Lanka." />
+  <title>BLOO MORA | Hand-painted plast of paris vases</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">Little pieces of art, made by hand · Islandwide delivery available</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="BLOO MORA home"><span class="brand-mark">✿</span><span>BLOO <i>MORA</i><small>HAND-PAINTED PLAST OF PARIS</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="navLinks"><a href="#collection">Shop vases</a><a href="#story">Our story</a><a href="#care">Care guide</a><a href="#contact">Contact</a></nav>
+    <div class="header-account"><a class="account-login" href="auth.html">Login</a><a class="account-register" href="auth.html#register">Register</a></div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> SMALL-BATCH · HANDMADE · HEARTFELT</p>
+        <h1>A little bloom<br>for <em>your space.</em></h1>
+        <p class="hero-description">Hand-painted plast of paris vases that bring a little colour, calm, and character into your home. Each piece is made to feel one of a kind.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#collection">Explore the collection <span>↘</span></a><a class="text-link" href="#story">Meet BLOO MORA <span>→</span></a></div>
+        <div class="hero-notes"><span>✳ Thoughtfully handmade</span><span>♡ Made with love in Sri Lanka</span></div>
+      </div>
+      <div class="hero-visual"><div class="hero-image-wrap"><img src="images/blue-daisy-vase.png" alt="Blue and cream ceramic vase hand-painted with white daisies"><div class="image-sticker">A little<br><i>flower</i><br>power ✿</div></div><div class="floating-note"><span>01 / THE SIGNATURE</span><b>Blue Daisy Vase</b><small>Hand-painted, always unique.</small></div><div class="sun-shape"></div></div>
+    </section>
+
+    <section class="trust-strip"><div><span>✿</span><b>Hand-painted details</b><small>Every brushstroke is unique</small></div><div><span>◇</span><b>Made to be treasured</b><small>Decor for everyday joy</small></div><div><span>♡</span><b>Gift-ready pieces</b><small>For your favourite people</small></div><div><span>↗</span><b>Easy to order</b><small>Message us directly</small></div></section>
+
+    <section class="collection section" id="collection">
+      <div class="section-heading"><div><p class="eyebrow">THE BLOO MORA COLLECTION</p><h2>Find your <em>favourite.</em></h2></div><p>Inspired by little things in nature. Pick the piece that feels like you.</p></div>
+      <div class="collection-tools"><div class="filters" role="group" aria-label="Filter products"><button class="filter active" data-filter="all">All vases</button><button class="filter" data-filter="floral">Floral</button><button class="filter" data-filter="blue">Blue tones</button><button class="filter" data-filter="gift">Gift picks</button></div><label class="search-box"><span>⌕</span><input id="productSearch" type="search" placeholder="Find a vase..." aria-label="Search vases"></label></div>
+      <div class="product-grid" id="productGrid">
+        <article class="product-card" data-category="floral blue gift" data-name="blue daisy vase"><div class="product-image"><span class="product-tag">BEST LOVED</span><img src="images/original-daisy-vase.png" alt="Signature blue daisy hand-painted vase"></div><div class="product-info"><div><h3>Blue Daisy Vase</h3><p>Signature floral · One of a kind</p></div><strong>LKR 3,500</strong></div></article>
+        <article class="product-card" data-category="floral gift" data-name="sunset bloom vase"><div class="product-image warm"><span class="product-tag">GIFT FAVOURITE</span><img src="images/blue-daisy-vase.png" alt="Warm-toned floral vase concept"></div><div class="product-info"><div><h3>Sunset Bloom Vase</h3><p>Warm sunset tones · Floral</p></div><strong>LKR 3,200</strong></div></article>
+        <article class="product-card" data-category="blue" data-name="ocean mist vase"><div class="product-image ocean"><span class="product-tag">CALM & COOL</span><img src="images/blue-daisy-vase.png" alt="Blue-toned ocean inspired vase concept"></div><div class="product-info"><div><h3>Ocean Mist Vase</h3><p>Ocean blues · Soft and simple</p></div><strong>LKR 2,900</strong></div></article>
+        <article class="product-card" data-category="floral gift" data-name="meadow days vase"><div class="product-image meadow"><span class="product-tag">NATURE INSPIRED</span><img src="images/original-daisy-vase.png" alt="Green meadow floral vase concept"></div><div class="product-info"><div><h3>Meadow Days Vase</h3><p>Garden flowers · Fresh greens</p></div><strong>LKR 3,300</strong></div></article>
+      </div>
+      <p class="product-note">Design previews are for inspiration. Please message us to confirm the available design, size, and final price before ordering.</p>
+    </section>
+
+    <section class="story section" id="story"><div class="story-photo"><img src="images/blue-daisy-vase.png" alt="Close-up of a hand-painted daisy vase"><span class="round-seal">MADE<br>WITH<br>♡ LOVE</span></div><div class="story-copy"><p class="eyebrow">A LITTLE ABOUT US</p><h2>Not just a vase.<br><em>A little feeling.</em></h2><p>BLOO MORA is all about turning simple ceramic pieces into cheerful little works of art. From tiny details to playful flowers, each design is created to make your favourite corner feel more like you.</p><p>Because the best things don't need to be perfect. They need to feel personal.</p><a href="https://wa.me/94740324570?text=Hi%20BLOO%20MORA!%20I%27d%20love%20to%20know%20more%20about%20your%20vases." class="text-link" target="_blank" rel="noopener">Tell us what you love <span>→</span></a></div></section>
+
+    <section class="care section" id="care"><div class="care-heading"><p class="eyebrow">A FEW LITTLE TIPS</p><h2>Love your vase <em>for longer.</em></h2></div><div class="care-grid"><div><span>01</span><h3>Handle with care</h3><p>Plast of paris is sturdy, but a gentle touch helps protect the painted details.</p></div><div><span>02</span><h3>Keep it clean</h3><p>Wipe gently with a soft, slightly damp cloth. Avoid abrasive scrubbers.</p></div><div><span>03</span><h3>Decorate your way</h3><p>Use it as a statement piece, or style it with dried flowers and stems.</p></div></div></section>
+
+    <section class="contact-banner" id="contact"><div><p class="eyebrow">YOUR NEXT FAVOURITE PIECE IS HERE</p><h2>Let's find your <em>little bloom.</em></h2><p>Have a question or want to order a design? We'd love to hear from you.</p></div><a class="button button-light" href="https://wa.me/94740324570?text=Hi%20BLOO%20MORA!%20I%27m%20interested%20in%20your%20hand-painted%20vases." target="_blank" rel="noopener">Chat with us on WhatsApp ↗</a></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-mark">✿</span><span>BLOO <i>MORA</i><small>HAND-PAINTED PLAST OF PARIS VASES</small></span></a><p>Small pieces of art. Big little feelings.</p><div class="footer-links"><a href="#collection">Collection</a><a href="#story">Our story</a><a href="#contact">Contact</a><a href="auth.html">Customer login</a><a href="admin.html">Admin</a></div><small class="copyright">© <span id="year"></span> BLOO MORA · Handmade with love in Sri Lanka</small></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
